@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-08-24T10:10:06.154Z</updated>
+  <updated>2018-08-24T10:11:36.414Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2018/08/24/%E5%9B%9E%E6%96%87%E6%95%B0/"/>
     <id>http://yoursite.com/2018/08/24/回文数/</id>
     <published>2018-08-24T10:04:17.000Z</published>
-    <updated>2018-08-24T10:10:06.154Z</updated>
+    <updated>2018-08-24T10:11:36.414Z</updated>
     
     <content type="html"><![CDATA[<p>判断一个整数是否是回文数。回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。</p><a id="more"></a><p><strong>示例1：</strong><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">输入：<span class="string">"III"</span></span><br><span class="line">输出：3</span><br></pre></td></tr></table></figure></p><p><strong>示例2：</strong><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">输入：<span class="string">"IV"</span></span><br><span class="line">输出：4</span><br></pre></td></tr></table></figure></p><p><strong>示例3：</strong><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">输入：<span class="string">"IX"</span></span><br><span class="line">输出：9</span><br></pre></td></tr></table></figure></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">class Solution:</span><br><span class="line">    def isPalindrome(self, x):</span><br><span class="line">        <span class="string">""</span><span class="string">"</span></span><br><span class="line"><span class="string">        :type x: int</span></span><br><span class="line"><span class="string">        :rtype: bool</span></span><br><span class="line"><span class="string">        "</span><span class="string">""</span></span><br><span class="line">        n = str(x)</span><br><span class="line">        v = <span class="string">''</span></span><br><span class="line">        </span><br><span class="line">        <span class="keyword">for</span> i <span class="keyword">in</span> range(len(n)):</span><br><span class="line">            v = v + n[-(i+1)]</span><br><span class="line">        </span><br><span class="line">        <span class="keyword">if</span> n == v:</span><br><span class="line">            <span class="built_in">return</span> True</span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            <span class="built_in">return</span> False</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -79,73 +79,6 @@
     
     
       <category term="算法" scheme="http://yoursite.com/tags/%E7%AE%97%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>my_second_blog</title>
-    <link href="http://yoursite.com/2018/08/23/my-second-blog/"/>
-    <id>http://yoursite.com/2018/08/23/my-second-blog/</id>
-    <published>2018-08-23T08:15:25.000Z</published>
-    <updated>2018-08-23T09:00:37.422Z</updated>
-    
-    <content type="html"><![CDATA[<p>这是我的第二个博文<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> /home/zf</span><br></pre></td></tr></table></figure></p><!-- ![你好](/my-second-blog/zzf.jpg) --><p><img src="/2018/08/23/my-second-blog/zzf.jpg" align="left" width="50px" height="50px"></p><p><br></p><blockquote><blockquote><blockquote><blockquote><blockquote><blockquote><p>这是缩进</p></blockquote></blockquote></blockquote></blockquote></blockquote></blockquote><p><em>你好</em><br><strong>你好</strong><br>_你好_<br><strong>你好</strong></p><p>use the <code>printf()</code> function<br><code>There is a literal backtick (`) here.</code></p><hr>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;这是我的第二个博文&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>firstblog</title>
-    <link href="http://yoursite.com/2018/08/23/firstblog/"/>
-    <id>http://yoursite.com/2018/08/23/firstblog/</id>
-    <published>2018-08-23T06:39:23.000Z</published>
-    <updated>2018-08-23T06:51:26.512Z</updated>
-    
-    <content type="html"><![CDATA[<p>This is my first - blog<br>这是我的第一个博客<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> /home/zf</span><br></pre></td></tr></table></figure></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;This is my first - blog&lt;br&gt;这是我的第一个博客&lt;br&gt;&lt;figure class=&quot;highlight bash&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2018/08/23/hello-world/"/>
-    <id>http://yoursite.com/2018/08/23/hello-world/</id>
-    <published>2018-08-23T06:07:00.925Z</published>
-    <updated>2018-08-23T12:27:15.353Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
-    
-    </summary>
-    
-      <category term="影评" scheme="http://yoursite.com/categories/%E5%BD%B1%E8%AF%84/"/>
-    
-    
-      <category term="影评" scheme="http://yoursite.com/tags/%E5%BD%B1%E8%AF%84/"/>
     
   </entry>
   
